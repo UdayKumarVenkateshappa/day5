@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <style type="text/css">
+    .navbar1{
+      border-radius: 0%;
+      background-color: #00784e;
+      color: #ffffff;
+      border-color: transparent;
+      font-weight: bold;
+    }
+    .navbar .navbar-brand{
+      color: #ffffff;
+    }
+    .glyphicon{
+      color: #ffffff;
+      font-family: arial;
+      font-size: 10px;
+      white-space: 4px;
+    }
+    .nav .navbar-brand:hover{
+     background-color: green;
+    }
+    .nav .navbar-brand1:hover{
+     background-color: #00905e;
+    }
+    .inverse1{
+      border-radius: 0%;
+      color: #ffffff;
+      border-color: transparent;
+      padding-bottom: -20px;
+      align-content: center;
+      background-color: #009763;
+      padding: 10px;
+      padding-left: 18.5em;   
+    }
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  color: black;
+  border-right: 1px solid black;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: black;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav-sub a:hover {
+  color: #0865ff;
+  border-right: 5px solid #0060ff;
+/*  letter-spacing: 0.10em;*/
+  box-shadow: inset 0 0 0 0 black;
+}
+
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.sidenav-main{
+  align-content: right;
+  font-size: 10px;
+  color: #8597b1;
+  padding-left: 3px;
+  text-transform: uppercase;
+}
+.sidenav-main .sidenav-sub{
+  align-content: 2em left;
+  font-size: 15px;
+  color:#000000;
+  text-transform: capitalize;
+  }
+  .search-box{
+    width: 200px;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+#customers td, #customers th {
+  border-bottom: 1px solid #ddd;
+  padding-left: 12px;
+}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  background-color: #f5f5f5;
+  color: #7a7a7a;
+}
+.color-line1{
+  color: #effbf7;
+  background-color : #00be7c;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-transform: uppercase;
+}   
+/* Second line CSS */
+.color-line2{
+  text-transform: uppercase;
+  color: #effbf7;
+  background-color : #b9c4d2;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.progress{
+  max-width: 90%;
+  height:4px;
+  border-color: transparent;
+  background-color: white;
+}
+.progress-bar{
+  margin-left: 2px;
+}
+.sidenav-sub{
+  padding-left: 3px;
+}
+tfoot{
+background-color: #f5f5f5;
+}
+.pagination{
+margin: 4px;
+}
+.foot{
+  background-color: transparent;border-color: transparent;
+}
+  </style>
+</head>
+<body>
+  <div class="navbar1">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><span class="glyphicon"><img src="images/logo-header.png" style="height:30px;" alt=""></span></a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a class="navbar-brand" href="#"><span class="glyphicon">Documentation | ACL Tokens</span></a></li>
+    </ul>
+  </div>
+  <div class="inverse1">
+  Jobs
+  </div>
+</div>
+<div class="sidenav">
+  <div class="sidenav-main">
+    <a href="#">Work load</a>
+    <div class="sidenav-sub"><a href="#">Jobs</a></div>
+  </div>
+  <hr style="height:1.5px;width:90%;border-width:0;color:gray;background-color:gray">
+  <div class="sidenav-main">
+    <a href="#">Cluster</a>
+    <div class="sidenav-sub"><a href="#">Clients</a></div>
+    <div class="sidenav-sub"><a href="#">Servers</a></div>
+  </div>
+</div>
+<div class="content">
+  <h2><input class="search-box" type="text" name="text" placeholder="Search jobs..."></h2>
+  <p>
+    <table id="customers"><th>Name</th><th>Status</th><th>Type</th><th>Priority</th><th>Groups</th><th>Allocation Status</th><tr>
+    <td>CSS-microchip-5</td>
+    <td><span class="color-line1">Running</span></td>
+    <td>service</td>
+    <td>86</td>
+    <td>3</td>
+    <td><br>
+      <div class="progress">
+            <div class="progress-bar bg-success"
+                style="width: 85%;">
+            </div>
+            <div class="progress-bar bg-warning"
+                style="width: 15%">
+            </div>
+        </div>
+    </td>
+    <tr>
+    <td>CSS-microchip-5</td>
+    <td><span class="color-line2">Pending</span></td>
+    <td>service</td>
+    <td>86</td>
+    <td>3</td>
+    <td><br>
+      <div class="progress">
+            <div class="progress-bar progress-bar-striped"
+                style="width: 10%;background-color: #66b400">
+            </div>
+            <div class="progress-bar bg-success"
+                style="width: 20%">
+            </div>
+            <div class="progress-bar bg-danger
+                progress-bar-striped" style="width: 30%">
+            </div>
+            <div class="progress-bar bg-warning
+                progress-bar-striped" style="width: 40%;">
+            </div>
+            
+        </div>
+    </td><tr>
+    <td>CSS-microchip-5</td>
+    <td><span class="color-line1">Running</span></td>
+    <td>service</td>
+    <td>86</td>
+    <td>3</td>
+    <td><br>
+      <div class="progress">
+            <div class="progress-bar bg-success"
+                style="width: 85%;">
+            </div>
+            <div class="progress-bar bg-warning"
+                style="width: 15%">
+            </div>
+        </div>
+    </td>
+    <tr>
+    <tr>
+    <td>CSS-microchip-5</td>
+    <td><span class="color-line2">Pending</span></td>
+    <td>service</td>
+    <td>86</td>
+    <td>3</td>
+    <td><br>
+      <div class="progress">
+            <div class="progress-bar progress-bar-striped"
+                style="width: 10%;background-color: #66b400">
+            </div>
+            <div class="progress-bar bg-success"
+                style="width: 20%">
+            </div>
+            <div class="progress-bar bg-danger
+                progress-bar-striped" style="width: 30%">
+            </div>
+            <div class="progress-bar bg-warning
+                progress-bar-striped" style="width: 40%;">
+            </div>
+            
+        </div>
+    </td><tr>
+    <td>CSS-microchip-5</td>
+    <td><span class="color-line1">Running</span></td>
+    <td>service</td>
+    <td>86</td>
+    <td>3</td>
+    <td><br>
+      <div class="progress">
+            <div class="progress-bar bg-success"
+                style="width: 85%;">
+            </div>
+            <div class="progress-bar bg-warning"
+                style="width: 15%">
+            </div>
+        </div>
+    </td>
+    <tr>
+    <tr>
+    <td>CSS-microchip-5</td>
+    <td><span class="color-line2">Pending</span></td>
+    <td>service</td>
+    <td>86</td>
+    <td>3</td>
+    <td><br>
+      <div class="progress">
+            <div class="progress-bar progress-bar-striped"
+                style="width: 10%;background-color: #66b400">
+            </div>
+            <div class="progress-bar bg-success"
+                style="width: 20%">
+            </div>
+            <div class="progress-bar bg-danger
+                progress-bar-striped" style="width: 30%">
+            </div>
+            <div class="progress-bar bg-warning
+                progress-bar-striped" style="width: 40%;">
+            </div>
+            
+        </div>
+    </td>
+    <tr>
+    <td>CSS-microchip-5</td>
+    <td><span class="color-line1">Running</span></td>
+    <td>service</td>
+    <td>86</td>
+    <td>3</td>
+    <td><br>
+      <div class="progress">
+            <div class="progress-bar bg-success"
+                style="width: 85%;">
+            </div>
+            <div class="progress-bar bg-warning"
+                style="width: 15%">
+            </div>
+        </div>
+    </td>
+    <tr>
+    <tr>
+    <td>CSS-microchip-5</td>
+    <td><span class="color-line2">Pending</span></td>
+    <td>service</td>
+    <td>86</td>
+    <td>3</td>
+    <td><br>
+      <div class="progress">
+            <div class="progress-bar progress-bar-striped"
+                style="width: 10%;background-color: #66b400">
+            </div>
+            <div class="progress-bar bg-success"
+                style="width: 20%">
+            </div>
+            <div class="progress-bar bg-danger
+                progress-bar-striped" style="width: 30%">
+            </div>
+            <div class="progress-bar bg-warning
+                progress-bar-striped" style="width: 40%;">
+            </div>
+            
+        </div>
+    </td><tr>
+    <td>CSS-microchip-5</td>
+    <td><span class="color-line1">Running</span></td>
+    <td>service</td>
+    <td>86</td>
+    <td>3</td>
+    <td><br>
+      <div class="progress">
+            <div class="progress-bar bg-success"
+                style="width: 85%;">
+            </div>
+            <div class="progress-bar bg-warning"
+                style="width: 15%">
+            </div>
+        </div>
+    </td>
+    <tr>
+    <tr>
+    <td>CSS-microchip-5</td>
+    <td><span class="color-line2">Pending</span></td>
+    <td>service</td>
+    <td>86</td>
+    <td>3</td>
+    <td><br>
+      <div class="progress">
+            <div class="progress-bar progress-bar-striped"
+                style="width: 10%;background-color: #66b400">
+            </div>
+            <div class="progress-bar bg-success"
+                style="width: 20%">
+            </div>
+            <div class="progress-bar bg-danger
+                progress-bar-striped" style="width: 30%">
+            </div>
+            <div class="progress-bar bg-warning
+                progress-bar-striped" style="width: 40%;">
+            </div>
+            
+        </div>
+    </td><tr>
+
+
+    <tfoot style="height:10px;">
+      <td colspan="12">
+            <ul class="pagination pull-right">
+              <li style="background-color: transparent;border-color: transparent; "><a style="background-color: transparent;border-color: transparent;"><b>1-10</b> of <b>15</b></a><a href="#"><</a><a href="#">></a></li>
+            </ul>
+          
+      </td>
+
+    </tfoot>
+    <!--<tfoot>
+      <tr>
+        <td colspan="6">All text you were puting here was shown at the top of the page outside of the table but now it is not.</td>
+      </tr>
+    </tfoot>-->
+    </table>
+  </p>
+</div>
+<!--<div class="container">
+  <h3>Right Aligned Navbar</h3>
+  <p>The .navbar-right class is used to right-align navigation bar buttons.</p>
+</div>-->
+
+</body>
+</html>
