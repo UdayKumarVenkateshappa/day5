@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>day 7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Train%20One' rel='stylesheet'>   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="bg-primary container-fluid">
+      <div class="row">
+        <div class="col col-sm-6">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link logo" href="#" >sartorius</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col col-sm-6 profile text-right">
+          <ul class="navbar-nav">
+          <li class="nav-i tem">
+            <a class="nav-link" href="#"><i class="fa fa-bell"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+              aria-expanded="false">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg" class="rounded-circle img-fluid" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </header>
+  <div class="mainpage row">
+    <nav class="col col-sm-2">
+      <ul class="ln">
+        <li class="leftnav active"><span class="bi bi-activity"></span>&nbsp; Alarms</li>
+        <li class="leftnav"><span class="bi bi-collection"></span>&nbsp; Data Collections</li>
+      </ul>
+    </nav>
+    <article class="col col-sm-8 p-3">
+      <div class="row">
+        <div class="col col-sm-6">
+          <h1>Alarms - (213)</h1>
+        </div>
+        <div class="col col-sm-6 text-right">
+          <span class="search-group">
+            <input type="text" class="search-bar" name="search" placeholder="Search Units...">
+            <button class="bton" type="submit" name="search">
+              <i class="fa fa-search"></i>
+            </button>
+          </span>
+          <!--
+          <span style="float: right; border-color:transparent;color: white; margin-top: 6px; margin-right: 10px"><input type="text" name="search" placeholder="search units...." style="padding: 5px 0px;width:250px;border-color: transparent;"><button type="submit" name="search" style="padding: 5px 0px;width:25px;background-color: white;color: black;border-color: transparent;"><i class="fa fa-search"></i></button></span> -->
+        </div>
+      </div>
+      <ul class="task-items">
+        <li class="item type1 flex-item-left">
+          <div class="row">
+            <div class="col">
+              <div class="grid-container">
+                <div class="icon">
+                  <span class="bi bi-arrow-up-right"></span>
+                </div>
+                <div>
+                  <div class="body-content">
+                      <h5>Alarms 1 Title</h5>
+                      <p class="disabled">Baset > 400ml</p>
+                    </div>
+                    <div class="foot-content">
+                      <span><span class="bi bi-arrow-up-right primary"></span>03</span>
+                      <span><span class="bi bi-arrow-down-right secondary"></span>06</span>
+                    </div>
+                  </div>
+                <div>
+                  <div class="body-content">
+                      <div class="table">
+                        <div class="col">
+                          <div class="row1 disabled">Priority:</div>
+                          <div class="row1 disabled">Batch:</div>
+                          <div class="row1 disabled">Unit:</div>
+                        </div>
+                        <div class="col">
+                          <div class="row1">High</div>
+                          <div class="row1">20004830.1</div>
+                          <div class="row1">Q2</div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div>
+                  <div class="body-content">
+                      <div class="table">
+                        <div class="col">
+                          <div class="row1 disabled">Activated</div>
+                          <div class="row1 disabled">Return to normal</div>
+                        </div>
+                        <div class="col">
+                          <div class="row1">09.09.2020 - 09:39 - 0.038hrs</div>
+                          <div class="row1">09.09.2020 - 09:39 - 0.038hrs</div>
+                        </div>
+                      </div>
+                    
+                      <div class="foot-content text-right">
+                        <input class="suprass" type="button" name="supress" value="supress">
+                        <input class="ackn" type="button" name="acknoledge" value="acknoledge">
+                      </div>
+                      </div>
+                </div>
+                <div>
+                  <div class="ml-auto">
+                  <div class="drop">
+                    <span class="bi bi-chevron-double-down"></span>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="item type1 flex-item-left">
+          <div class="row">
+            <div class="col">
+              <div class="grid-container">
+                <div class="icon">
+                  <span class="bi bi-arrow-up-right"></span>
+                </div>
+                <div>
+                  <div class="body-content">
+                      <h5>Alarms 1 Title</h5>
+                      <p class="disabled">Baset > 400ml</p>
+                    </div>
+                    <div class="foot-content">
+                    </div>
+                  </div>
+                <div>
+                  <div class="body-content">
+                      <div class="table">
+                        <div class="col">
+                          <div class="row1 disabled">Priority:</div>
+                          <div class="row1 disabled">Batch:</div>
+                          <div class="row1 disabled">Unit:</div>
+                        </div>
+                        <div class="col">
+                          <div class="row1">High</div>
+                          <div class="row1">20004830.1</div>
+                          <div class="row1">Q2</div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div>
+                  <div class="body-content">
+                      <div class="table">
+                        <div class="col">
+                          <div class="row1 disabled">Activated</div>
+                          <div class="row1 disabled">Return to normal</div>
+                        </div>
+                        <div class="col">
+                          <div class="row1">09.09.2020 - 09:39 - 0.038hrs</div>
+                          <div class="row1">09.09.2020 - 09:39 - 0.038hrs</div>
+                        </div>
+                      </div>
+                    
+                      <div class="foot-content text-right">
+                        <input class="suprass" type="button" name="supress" value="supress">
+                        <input class="ackn" type="button" name="acknoledge" value="acknoledge">
+                      </div>
+                      </div>
+                </div>
+                <div>
+                  <div class="ml-auto">
+                  <div class="drop">
+                    <span class="bi bi-chevron-double-down"></span>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>  
+
+        <li class="item type1 flex-item-left">
+          <div class="row">
+            <div class="col">
+              <div class="grid-container">
+                <div class="icon whit bg-secondary">
+                  <span class="bi bi-arrow-down-right whit bg-secondary"></span>
+                </div>
+                <div>
+                  <div class="body-content">
+                      <h5>Alarms 1 Title</h5>
+                      <p class="disabled">Baset > 400ml</p>
+                    </div>
+                    <div class="foot-content">
+                      <span><span class="bi bi-arrow-up-right primary"></span>03</span>
+                      <span><span class="bi bi-arrow-down-right secondary"></span>06</span>
+                    </div>
+                  </div>
+                <div>
+                  <div class="body-content">
+                      <div class="table">
+                        <div class="col">
+                          <div class="row1 disabled">Priority:</div>
+                          <div class="row1 disabled">Batch:</div>
+                          <div class="row1 disabled">Unit:</div>
+                        </div>
+                        <div class="col">
+                          <div class="row1">High</div>
+                          <div class="row1">20004830.1</div>
+                          <div class="row1">Q2</div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div>
+                  <div class="body-content">
+                      <div class="table">
+                        <div class="col">
+                          <div class="row1 disabled">Activated</div>
+                          <div class="row1 disabled">Return to normal</div>
+                        </div>
+                        <div class="col">
+                          <div class="row1">09.09.2020 - 09:39 - 0.038hrs</div>
+                          <div class="row1">09.09.2020 - 09:39 - 0.038hrs</div>
+                        </div>
+                      </div>
+                    
+                      <div class="foot-content text-right">
+                        <input class="suprass" type="button" name="supress" value="supress">
+                        <input class="ackn" type="button" name="acknoledge" value="acknoledge">
+                      </div>
+                      </div>
+                </div>
+                <div>
+                  <div class="ml-auto">
+                  <div class="drop">
+                    <span class="bi bi-chevron-double-down"></span>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="item type1 flex-item-left">
+          <div class="row">
+            <div class="col">
+              <div class="grid-container">
+                <div class="icon">
+                  <span class="bi bi-arrow-up-right"></span>
+                </div>
+                <div>
+                  <div class="body-content">
+                      <h5>Alarms 1 Title</h5>
+                      <p class="disabled">Baset > 400ml</p>
+                    </div>
+                    <div class="foot-content">
+                      <span><span class="bi bi-arrow-up-right primary"></span>03</span>
+                      <span><span class="bi bi-arrow-down-right secondary"></span>06</span>
+                    </div>
+                  </div>
+                <div>
+                  <div class="body-content">
+                      <div class="table">
+                        <div class="col">
+                          <div class="row1 disabled">Priority:</div>
+                          <div class="row1 disabled">Batch:</div>
+                          <div class="row1 disabled">Unit:</div>
+                        </div>
+                        <div class="col">
+                          <div class="row1">High</div>
+                          <div class="row1">20004830.1</div>
+                          <div class="row1">Q2</div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div>
+                  <div class="body-content">
+                      <div class="table">
+                        <div class="col">
+                          <div class="row1 disabled">Activated</div>
+                          <div class="row1 disabled">Return to normal</div>
+                        </div>
+                        <div class="col">
+                          <div class="row1">09.09.2020 - 09:39 - 0.038hrs</div>
+                          <div class="row1">09.09.2020 - 09:39 - 0.038hrs</div>
+                        </div>
+                      </div>
+                    
+                      <div class="foot-content text-right">
+                        <input class="suprass" type="button" name="supress" value="supress">
+                        <input class="ackn" type="button" name="acknoledge" value="acknoledge">
+                      </div>
+                      </div>
+                </div>
+                <div>
+                  <div class="ml-auto">
+                  <div class="drop">
+                    <span class="bi bi-chevron-double-down"></span>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item type1 flex-item-left">
+          <div class="row">
+            <div class="col">
+              <div class="grid-container">
+                <div class="icon whit bg-disable">
+                  <span class="bi bi-arrow-up-right whit bg-disable"></span>
+                </div>
+                <div>
+                  <div class="body-content">
+                      <h5>Alarms 1 Title</h5>
+                      <p class="disabled">Baset > 400ml</p>
+                    </div>
+                    <div class="foot-content">
+                      <span class="secondary1">Acknowledge</span>
+                    </div>
+                  </div>
+                <div>
+                  <div class="body-content">
+                      <div class="table">
+                        <div class="col">
+                          <div class="row1 disabled">Priority:</div>
+                          <div class="row1 disabled">Batch:</div>
+                          <div class="row1 disabled">Unit:</div>
+                        </div>
+                        <div class="col">
+                          <div class="row1">High</div>
+                          <div class="row1">20004830.1</div>
+                          <div class="row1">Q2</div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div>
+                  <div class="body-content">
+                      <div class="table">
+                        <div class="col">
+                          <div class="row1 disabled">Activated</div>
+                          <div class="row1 disabled">Return to normal</div>
+                        </div>
+                        <div class="col">
+                          <div class="row1">09.09.2020 - 09:39 - 0.038hrs</div>
+                          <div class="row1">09.09.2020 - 09:39 - 0.038hrs</div>
+                        </div>
+                      </div>
+                    
+                      <div class="foot-content text-right">
+                        <input class="suprass" type="button" name="supress" value="supress">
+                        <input class="ackn" type="button" name="acknoledge" value="acknoledge">
+                      </div>
+                      </div>
+                </div>
+                <div>
+                  <div class="ml-auto">
+                  <div class="drop">
+                    <span class="bi bi-chevron-double-down"></span>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>  
+
+        <li class="item type1 flex-item-left">
+          <div class="row">
+            <div class="col">
+              <div class="grid-container">
+                <div class="icon">
+                  <span class="bi bi-arrow-up-right"></span>
+                </div>
+                <div>
+                  <div class="body-content">
+                      <h5>Alarms 1 Title</h5>
+                      <p class="disabled">Baset > 400ml</p>
+                    </div>
+                    <div class="foot-content">
+                      <span><span class="bi bi-arrow-up-right primary"></span>03</span>
+                      <span><span class="bi bi-arrow-down-right secondary"></span>06</span>
+                    </div>
+                  </div>
+                <div>
+                  <div class="body-content">
+                      <div class="table">
+                        <div class="col">
+                          <div class="row1 disabled">Priority:</div>
+                          <div class="row1 disabled">Batch:</div>
+                          <div class="row1 disabled">Unit:</div>
+                        </div>
+                        <div class="col">
+                          <div class="row1">High</div>
+                          <div class="row1">20004830.1</div>
+                          <div class="row1">Q2</div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div>
+                  <div class="body-content">
+                      <div class="table">
+                        <div class="col">
+                          <div class="row1 disabled">Activated</div>
+                          <div class="row1 disabled">Return to normal</div>
+                        </div>
+                        <div class="col">
+                          <div class="row1">09.09.2020 - 09:39 - 0.038hrs</div>
+                          <div class="row1">09.09.2020 - 09:39 - 0.038hrs</div>
+                        </div>
+                      </div>
+                    
+                      <div class="foot-content text-right">
+                        <input class="suprass" type="button" name="supress" value="supress">
+                        <input class="ackn" type="button" name="acknoledge" value="acknoledge">
+                      </div>
+                      </div>
+                </div>
+                <div>
+                  <div class="ml-auto">
+                  <div class="drop">
+                    <span class="bi bi-chevron-double-down"></span>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>           
+      </ul>
+  </article>
+  <aside id="aside">
+      <div id="aside1">
+      <header class="filter">
+        <div class="row">
+          <div class="col col-sm-6">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <span class="nav-link">Filter</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col col-sm-6 text-right">
+            <ul class="navbar-nav">
+              <li class="nav-i tem">
+                <a class="nav-link" href="#"><i class="fa fa-sliders"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <section class="section-one">
+        <div class="s-1">
+          <div class="heading-aside h">sort by:</div>
+          <div>
+            <select name="sortItems" id="sortItems">
+              <option value="P-High-Low">Price: High - Low</option>
+              <option value="P-Low-High">Price: Low - High</option>
+              <option value="Po-High-Low">Popularity: High - Low</option>
+              <option value="Po-Low-High">Popularity: Low - High</option>
+              <option value="R-High-Low">Ratings: High - Low</option>
+              <option value="R-Low-High">Ratings: Low - High</option>
+            </select>
+          </div>
+        </div>
+      </section>
+      <hr class="heading-aside">
+      <section class="section-two">
+        <div class="s-1">
+          <div class="heading-aside h">Batch:</div>
+          <div>
+             <ul class="check">
+              <li class="checkbox">
+                <label class="checkbox-label">BSMI208303940400
+    <input type="checkbox" checked="checked" class="chec">
+    <span class="checkmark-label"></span>
+  </label>
+              </li>
+              <li class="checkbox">
+                 <label class="checkbox-label">BSMI208303940400
+                <input type="checkbox">
+                  <span class="checkmark-label"></span>
+                </label>
+              </li>
+              <li class="checkbox">
+                 <label class="checkbox-label">BSMI208303940400
+                <input type="checkbox">
+                  <span class="checkmark-label"></span>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+          <hr class="heading-aside">
+      <section class="section-three">
+        <div class="s-1">
+          <div class="heading-aside h">Unit:</div>
+          <div>
+             <div class="listclass">
+              <span class="checkmark1">
+              <label class="checkbox-label">Q1
+                <input type="checkbox">
+                  <span class="checkmark-label"></span>
+                </label></span>
+                <span class="checkmark1">
+                <label class="checkbox-label">Q2
+                <input type="checkbox">
+                  <span class="checkmark-label"></span>
+                </label></span>
+              <span class="checkmark1">
+              <label class="checkbox-label">Q3
+                <input type="checkbox" checked="checked">
+                  <span class="checkmark-label"></span>
+                </label></span>
+                <span class="checkmark1">
+                <label class="checkbox-label">Q4
+                <input type="checkbox" checked="checked">
+                  <span class="checkmark-label"></span>
+                </label></span>
+            </div>
+          </div>
+        </div>
+      </section>
+          <hr class="heading-aside1">
+          <section class="section-four">
+        <div class="s-1">
+          <div class="heading-aside h">Type:</div>
+          <div>
+             <ul class="check">
+              <li class="checkbox">
+                <label class="checkbox-label">High
+    <input type="checkbox" checked="checked" class="chec">
+    <span class="checkmark-label"></span>
+  </label>
+              </li>
+              <li class="checkbox">
+                 <label class="checkbox-label">High-low
+                <input type="checkbox">
+                  <span class="checkmark-label"></span>
+                </label>
+              </li>
+              <li class="checkbox">
+                 <label class="checkbox-label">Low
+                <input type="checkbox">
+                  <span class="checkmark-label"></span>
+                </label>
+              </li>
+              <li class="checkbox">
+                 <label class="checkbox-label">Low - High
+                <input type="checkbox">
+                  <span class="checkmark-label"></span>
+                </label>
+              </li>
+              <li class="checkbox disabled">
+                 <label class="checkbox-label">Connection Break
+                <input type="checkbox">
+                  <span class="checkmark-label1"></span>
+                </label>
+              </li>
+              <li class="checkbox disabled">
+                 <label class="checkbox-label">Connection Issue
+                <input type="checkbox">
+                  <span class="checkmark-label1"></span>
+                </label>
+              </li>
+              <li class="checkbox disabled">
+                 <label class="checkbox-label">Error while Processing
+                <input type="checkbox">
+                  <span class="checkmark-label1"></span>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+              <hr class="heading-aside">
+      <section class="section-five">
+       <div class="s-1">
+          <div class="heading-aside h">Priority:</div>
+          <div>
+             <div class="listclass">
+       <span class="checkmark1">
+              <label class="checkbox-label">High
+                <input type="checkbox">
+                  <span class="checkmark-label"></span>
+                </label></span>
+                <span class="checkmark1">
+                <label class="checkbox-label">Medium
+                <input type="checkbox">
+                  <span class="checkmark-label"></span>
+                </label></span>
+              <span class="checkmark1">
+              <label class="checkbox-label">Prefer
+                <input type="checkbox" checked="checked">
+                  <span class="checkmark-label"></span>
+                </label></span>
+                <span class="checkmark1">
+                <label class="checkbox-label">Low
+                <input type="checkbox" checked="checked">
+                  <span class="checkmark-label"></span>
+                </label></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="heading-aside1">
+      <section class="section-seven" id="divfix">
+        <div class="s-1">
+          <div>
+             <input class="clear" type="button" name="clear" value="clear">
+             <input class="apply" type="button" name="apply" value="apply">
+          </div>
+        </div>
+      </section>
+    </div>
+  </aside>
+</div>
+</body>
+</html>

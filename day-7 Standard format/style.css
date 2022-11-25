@@ -1,0 +1,405 @@
+     :root{
+  --primary: #feed00;
+  --fontColor: #000000;
+  --disable:#d2d2d2;
+  --backColor:#f5f5f5;
+  --secondary:red;
+  --whit:white;
+}
+/* header content */
+.bg-primary{
+  background-color: var(--primary) !important;
+  color: var(--fontColor) !important;
+}
+.bg-secondary{
+  background-color: var(--secondary) !important;
+  color: var(--fontColor) !important;
+}
+.bg-disable{
+  background-color: var(--disable) !important;
+  color: var(--fontColor) !important;
+}
+.whit{
+  color: white !important;
+}
+article.col{
+  background-color: var(--backColor) !important;
+  padding-left: 10px;
+}
+.primary{
+  color: var(--primary) !important;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+div.foot-content{
+  font-size: 10px;
+  margin-right: 5px;
+}
+.disabled{
+  color: var(--disable) !important;
+}
+.secondary{
+  color: var(--secondary) !important;
+  letter-spacing: 2px;
+}
+.secondary1{
+  color: var(--secondary) !important;
+  font-size: 10px;
+}
+.bg-primary1 .bi{
+  background-color: var(--primary) !important;
+    color: var(--fontColor) !important;
+  font-size: 30px;
+  padding: 25px;
+}
+.bg-secondary1 .bi{
+  background-color: var(--secondary) !important;
+    color: var(--whit);
+  font-size: 30px;
+  padding: 25px;
+}
+.bg-disabled1 .bi{
+  background-color: var(--disable) !important;
+    color: var(--whit) !important;
+  font-size: 30px;
+  padding: 25px;
+}
+.profile .navbar-nav {
+    justify-content: end;
+    align-items: end;
+    flex-direction: row;
+}
+a.nav-link{
+  color:var(--fontColor) !important;
+}
+span.nav-link{
+  color:var(--fontColor) !important;
+}
+.nav-link .fa{
+  font-size: 20px;
+  padding-right: -10px;
+}
+span.nav-link .fa{
+  font-size: 15px;
+  padding-right: 20px;
+}
+header.filter ul{
+}
+.img-fluid{
+  height: 24.67px;
+  width: 25px;
+  color:var(--primary) !important;
+  margin-left: 10px;
+}
+.logo{
+   font-family: 'Train One';
+   font-size: 22px;
+   vertical-align: middle;
+   text-transform: uppercase;
+   color: var(--fontColor) !important;
+}
+hr.heading-aside1{
+  margin-top: 58px;
+  margin-right: 12px !important;
+}
+/* end of header content*/
+ul.task-items li.item{
+	list-style: none;
+	margin-left: -40px;
+	padding-top: 10px;
+}
+hr.heading-aside{
+  margin-right: 12px !important;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 75px auto auto auto 25px;
+  gap: 10px;
+  background-color: white;
+  padding: 10px 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  font-size: 10px;
+  }
+.grid-container > div.icon {
+  background-color: yellow;
+  text-align: center;
+  font-size: 20px;
+  padding:20px;
+}
+div.icon span.bi{
+  background-color: yellow;
+  text-align: center;
+}
+p.disabled{
+  margin-top: -4px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.body-content{
+  border-right: 2px solid var(--disable);
+}
+.body-content h5{
+font-size: 15px;
+}
+.ml-auto .drop{
+  padding: 20px 5px 20px 5px !important;
+}
+.table {
+    display: flex;
+    padding: -10px;
+
+}
+.table .column {
+    margin-bottom: 1em;
+    margin: -10px;
+    padding: -5px 14px 5px 25px;
+    width: 100%;    
+}
+div.row{
+  margin-right: 0px;
+  }
+
+.table .row1 {
+  font-size: 10px;
+    height: 15px;
+    padding: -10px;
+    margin: auto;
+    width: 150%;
+  }
+/**/  
+article.col{
+  background-color: var(--backColor) !important;
+  padding-left: 10px;
+}
+article.col h1{
+  font-size: 30px;
+  font-weight: normal;
+}
+.search-group{
+  float: right;
+  border-color:transparent;
+  color: white;
+  margin-top: 6px;
+  margin-right: 10px;
+  margin-right: 0px;
+  display: inline-flex;
+}
+.search-group .search-bar{
+  padding: 5px 0px 5px 0px;
+  width:250px;
+  border-color: transparent;
+}
+.search-group .bton{
+  padding:5px 0px 5px 0px;
+  width:25px;
+  background-color: white;
+  color: black;
+  border-color: transparent;
+}
+.suprass{
+    padding: 4px 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 7px;
+}
+.ackn{
+    padding: 4px 10px;
+    background-color: var(--primary) !important;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 7px;
+}
+.clear{
+    padding: 5px 22px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.apply{
+    padding: 5px 22px;
+    background-color: var(--primary) !important;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*  left nav content */
+ul.ln li.leftnav{
+  color: var(--disable);
+  list-style: none;
+  text-align:2px left;
+  margin-left: -40px;
+    padding:4px;
+    margin-top:20px; 
+}
+
+ul.ln li.active{
+  border-left: 5px solid #feed00;
+  color: #000000;
+}
+
+ul.ln li.leftnav:hover{
+  border-left: 5px solid #feed00;
+  color: #000000;
+}
+
+
+/* end of left Nav content */
+
+/* body data */
+div.row{
+  margin-right: 15px;
+  }
+
+.ml-auto .drop{
+  padding: 10px;
+}
+/* end of body data */
+ .checkmark1 {
+         width: 50%;
+         display:block;
+          float: left;
+         padding: 0px;
+       font-size: 12px;
+
+}
+#sortItems{
+  width: 90%;
+  font-size: 12px;
+  border-radius: 0px;
+  padding: 5px;
+}
+aside{
+  width: 17%;
+  padding: 11px 0px 0px 10px;
+  margin-right: -10px;
+}
+.h{
+  padding-bottom: 10px;
+}
+li.checkbox{
+  list-style: none;
+  padding-left: -30px;
+}
+ul.check{
+  padding-left: 0px;
+}
+
+/*  */
+/* The checkbox-label */
+.checkbox-label {
+     display: block;
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 11px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.checkmark-label {
+  position: absolute;
+  top: 10;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: var(--disable);
+
+}
+.checkmark-label1 {
+  position: absolute;
+  top: 10;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: var(--disable);
+
+}
+/* On mouse-over, add a grey background color */
+.checkbox-label:hover input ~ .checkmark-label {
+  background-color: #ccc;
+}
+.checkbox-label:hover input ~ .checkmark-label1 {
+  background-color: #ccc;
+}
+/* When the checkbox is checked, add a blue background */
+.checkbox-label input:checked ~ .checkmark-label {
+  background-color: var(--primary);
+}
+.checkbox-label input:checked ~ .checkmark-label1 {
+  background-color: var(--disable);
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark-label:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkmark-label1:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Show the checkmark when checked */
+.checkbox-label input:checked ~ .checkmark-label:after {
+  display: block;
+}
+.checkbox-label input:checked ~ .checkmark-label1:after {
+  display: block;
+}
+/* Style the checkmark/indicator */
+.checkbox-label .checkmark-label:after {
+  left: 5px;
+  top: 1.5px;
+  width: 5px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.checkbox-label .checkmark-label1:after {
+  left: 5px;
+  top: 1.5px;
+  width: 5px;
+  height: 10px;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/*  */
+aside{
+  position: sticky;
+  overflow: scroll;
+  height: 90vh; 
+}
+aside .aside1{
+  position: sticky;
+  overflow: scroll;
+  height: 170vh; 
+}
+aside::-webkit-scrollbar {
+  width: 12px;
+}
+#divfix{
+   position:relative; bottom: 10px right 10px; 
+
+}
